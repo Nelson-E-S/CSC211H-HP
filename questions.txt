@@ -1,0 +1,55 @@
+#source: https://ucr.fbi.gov/hate-crime/2018/topic-pages/incidents-and-offenses
+?Of the 7,036 single-bias hate crimes incidents reported in 2018, 57.5 percent were motivated by this bias. -FBI.gov
+-religious bias
++race/ethnicity/ancestry bias
+-sexual-orientation bias
+#source: https://ucr.fbi.gov/hate-crime/2018/topic-pages/incidents-and-offenses
+?Of the 7,036 single-bias hate crimes incidents reported in 2018, 20.2 percent were motivated by this bias. -FBI.gov
+-race/ethnicity/ancestry bias
+-sexual-orientation bias
++religious bias
+#source: https://ucr.fbi.gov/hate-crime/2018/topic-pages/incidents-and-offenses
+?Of the 7,036 single-bias hate crimes incidents reported in 2018, 17.0 percent were motivated by this bias. -FBI.gov
++What is sexual-orientation bias
+-What is religious bias
+-What is race/ethnicity/ancestry bias
+#source: https://talkpoverty.org/basics/#povertyrate and https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-270.pdf
+?This population's poverty rate was reported to be 9.5 million in 2019. -Census.gov
+-What is the black population
++What is the hispanic population
+-What is asian population
+#source: https://talkpoverty.org/basics/#povertyrate and https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-270.pdf
+?This population's poverty rate was reported to be 8.1 million in 2019. -Census.gov
++What is black population
+-What is hispanic population
+-What is asian population
+#source: https://www.debt.org/faqs/americans-in-debt/poverty-united-states/
+?This region has 7 of the 10 highest poverty rates in the US. -debt.org
+-What is the Eastern region
+-What is the Midwestern region
++What is the Sourthern region
+#source: https://socialjusticeresourcecenter.org/facts-and-figures/education-system/ and US Deprartment of Education
+?This course was offered at a rate of 33% of public high schools with high black and Latino enrollment and  56% of high schools with low black and Latino enrollment. -US Department of Education
++What is Calcus
+-What is Algebra
+-What is Art
+#source: http://www3.weforum.org/docs/WEF_GGGR_2020.pdf
+?This is the range where the US indexed at in the 2020 World Economic Forum Gender Gap Index report. -World Economic Form
+-What is Top 25
++What is Top 100
+-What is Top 150
+#source: https://www.cdc.gov/coronavirus/2019-ncov/faq.html#Spread
+?This is the most common method COVID-19 spreads between hosts. -CDC
+-What is Remote contact with gaseous outbursts
+-What is Close contact through mucus related transfers
++What is Close contact through respiratory exhausts
+#source: https://www.cdc.gov/coronavirus/2019-ncov/faq.html#Contact-Tracing
+?This method has been used for decades by state and local health departments to slow or stop the spread of infectious diseases.
++What is Contact Tracing
+-What is Quarantine
+-What is Intervention
+#source: https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/quarantine.html#:~:text=Quarantine%20helps%20prevent%20spread%20of,or%20local%20health%20department.
+?This method helps prevent spread of disease that can occur before a person knows they are sick or if they are infected with the virus without feeling sypmtoms. -CDC
+-What is Intervention
+-What is Contact Tracing
++What is Quarantine
