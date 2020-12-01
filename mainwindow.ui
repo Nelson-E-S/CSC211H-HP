@@ -526,7 +526,7 @@ QPushButton#resetBtn:pressed {
      </rect>
     </property>
     <property name="text">
-     <string>Instructions: Answer the trivia above, once all questions are complete you can save your using the [Save Score] button on the right. To save make sure you have exactly 3 characters for your initials right next to your score.</string>
+     <string>Instructions: Answer the trivia above, once all questions are complete you can save your initials using the [Save Score] button on the right. To save make sure you have exactly 3 characters for your initials to the left of your score above.</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignJustify|Qt::AlignVCenter</set>
