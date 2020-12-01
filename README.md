@@ -21,7 +21,7 @@ The app loads several trivia questions that hit broad range topics within the su
 ## What I learned
 * How to build an app with QT
 * How to design a visually appealing app in QT
-* How to custom make a different features and processes for the smooth operation of a QT app
+* How to custom make different features and processes for the smooth operation of a QT app
 
 ## Built with
 * QT creator 4.13.2
