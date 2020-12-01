@@ -23,6 +23,10 @@ The app loads several trivia questions that hit broad range topics within the su
 * How to design a visually appealing app in QT
 * How to custom make different features and processes for the smooth operation of a QT app
 
+## Future Features
+* Swap text based question and highscore saving and loading to database
+* Upgrade single-question layout to grid based layout for a more Jeopardy feel
+
 ## Built with
 * QT creator 4.13.2
 * QT 5.15.1 (MSVC 2019, 64bit)
