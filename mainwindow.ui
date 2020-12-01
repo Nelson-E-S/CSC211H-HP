@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>510</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>510</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Learn Facts about Social Injustice and Covid with Fun!</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>-5</number>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">* {
+	font-family: Rockwell;
+	font-size: 8pt
+}
+
+.QMainWindow, QWidget#centralwidget {
+	background: darkgreen
+}
+
+QGroupBox#questionsBox,
+QGroupBox#highscoresBox,
+QLabel#scoreLbl,
+QLabel#tallyLbl,
+QLineEdit#initialsLn,
+QLabel#instructionLbl{
+	background: blue;
+	border: 5px solid yellow;
+	color: white
+}
+
+QGroupBox#questionsBox QPushButton {
+	background: white;
+	border: 2px solid black;
+	color: black;
+	border-top-color: blue;
+	border-left-color: blue
+}
+
+QGroupBox#questionsBox QPushButton:hover {
+	font-style: italic
+}
+
+QGroupBox#questionsBox QPushButton:pressed {
+	border: 2px solid black;
+	border-bottom-color: blue;
+	border-right-color: blue
+}
+
+QGroupBox#questionsBox QLabel{
+	font-size: 11pt;
+	color: white
+}
+
+QGroupBox#highscoresBox QLabel {
+	color: white
+}
+
+QGroupBox#highscoresBox QLabel#highscoresTitleLbl {
+	text-decoration: underline
+}
+
+QGroupBox#highscoresBox QLabel#highscoreLbl_1,
+QGroupBox#highscoresBox QLabel#highscoreLbl_2,
+QGroupBox#highscoresBox QLabel#highscoreLbl_3{
+	font-weight: bold	;
+}
+
+QGroupBox#highscoresBox QLabel#highscoreLbl_1 {
+	color: gold;
+}
+
+QGroupBox#highscoresBox QLabel#highscoreLbl_2 {
+	color: silver
+}
+
+QGroupBox#highscoresBox QLabel#highscoreLbl_3 {
+	color: brown
+}
+
+QGroupBox#highscoresBox QPushButton {
+	background: yellow;
+	color: black;
+	border: 2px solid yellow;
+	border-bottom-color: blue;
+	border-right-color: blue;
+}
+
+QGroupBox#highscoresBox QPushButton:disabled {
+	border: 2px solid yellow;
+	color: yellow
+}
+
+QGroupBox#highscoresBox QPushButton:hover {
+	font-style: italic
+}
+
+QGroupBox#highscoresBox QPushButton:pressed {
+	border: 2px solid yellow;
+	border-top-color: blue;
+	border-left-color: blue;
+}
+
+QLabel#scoreLbl {
+	font-weight: bold
+}
+
+QLineEdit#initialsLn {
+	border-left-color: blue;
+	border-right-color: blue;
+	font-size: 9pt
+}
+
+QLabel#tallyLbl {
+	border-left-color: blue;
+	font-style: italic;
+	font-weight: bold
+}
+
+QLabel#instructionLbl{
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: 9pt
+}
+
+QPushButton#exitBtn{
+	background: red;
+	color: yellow;
+	border: 2px solid yellow;
+	border-top-color: darkgreen;
+	border-left-color: darkgreen
+}
+
+QPushButton#exitBtn:hover {
+	font-weight: bold
+}
+
+QPushButton#exitBtn:pressed {
+	border: 2px solid yellow;
+	border-bottom-color: darkgreen;
+	border-right-color: darkgreen
+}
+
+QPushButton#resetBtn{
+	background: lightblue;
+	color: blue;
+	border: 2px solid yellow;
+	border-top-color: darkgreen;
+	border-left-color: darkgreen
+}
+
+QPushButton#resetBtn:disabled{
+	color: lightblue
+}
+
+QPushButton#resetBtn:hover {
+	font-weight: bold
+}
+
+QPushButton#resetBtn:pressed {
+	border: 2px solid yellow;
+	border-bottom-color: darkgreen;
+	border-right-color: darkgreen
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="questionsBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>311</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="questionLbl">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>291</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Loading question...</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="optOneBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Loading answer...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="optTwoBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Loading answer...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="optThreeBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Loading answer...</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="highscoresBox">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>121</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="highscoresTitleLbl">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>HighScores - Top 10</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>6.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>7.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>8.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>9.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="highscoreLbl_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveBtn">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>226</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Save Score</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="resetBtn">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>270</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitBtn">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>270</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scoreLbl">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>55</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Score:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tallyLbl">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>270</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="initialsLn">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>270</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>3</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>abc</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructionLbl">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>491</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Instructions: Answer the trivia above, once all questions are complete you can save your using the [Save Score] button on the right. To save make sure you have exactly 3 characters for your initials right next to your score.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>questionsBox</zorder>
+   <zorder>highscoresBox</zorder>
+   <zorder>resetBtn</zorder>
+   <zorder>exitBtn</zorder>
+   <zorder>tallyLbl</zorder>
+   <zorder>initialsLn</zorder>
+   <zorder>instructionLbl</zorder>
+   <zorder>scoreLbl</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
