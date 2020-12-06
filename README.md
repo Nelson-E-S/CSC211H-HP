@@ -17,6 +17,16 @@ The app loads several trivia questions that hit broad range topics within the su
 * Ensuring the accuracy of the questions loaded and presented
 * Ensuring the accuracy of the highscores loaded, presented, and saved
 
+## Workflow + Models
+#### User Flow
+![User Flow](https://github.com/Nelson-E-S/CSC211H-HP/blob/main/media/images/userflow.png "User Flow")
+#### Backend Flow
+![Backend Flow](https://github.com/Nelson-E-S/CSC211H-HP/blob/main/media/images/backendflow.png "Backend Flow")
+#### Primary Trivia Model
+![Primary Trivia Model](https://github.com/Nelson-E-S/CSC211H-HP/blob/main/media/images/triviamodel.png "Primary Trivia Model")
+#### GUI Wireframe
+![GUI Wireframe](https://github.com/Nelson-E-S/CSC211H-HP/blob/main/media/images/gui_wireframe.png "GUI Wireframe")
+
 ## Accomplishments
 * Finalized an app taking advantage of the robust features of QT Creator
 * Showcased multiple topics learned in the CSC 211H class as part of the project features
