@@ -3,6 +3,8 @@
 # Learn Facts about Social Injustice and Covid with Fun!
 
 COVID-19 and Social Injustice Educational Trivia App
+
+## Project Doc
 [Project Proposal Doc](https://docs.google.com/document/d/1DmNxVG2GoPte06e9x_uHS9-GXJFBc8V5DPZdFfvBjxI/edit?usp=sharing "Project Proposal Doc")
 
 ## Inspiration
