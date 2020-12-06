@@ -4,8 +4,9 @@
 
 COVID-19 and Social Injustice Educational Trivia App
 
-## Project Doc
-[Project Proposal Doc](https://docs.google.com/document/d/1DmNxVG2GoPte06e9x_uHS9-GXJFBc8V5DPZdFfvBjxI/edit?usp=sharing "Project Proposal Doc")
+## Project Doc + Site
+* [Project Proposal Doc](https://docs.google.com/document/d/1DmNxVG2GoPte06e9x_uHS9-GXJFBc8V5DPZdFfvBjxI/edit?usp=sharing "Project Proposal Doc")
+* [Project Site](https://sites.google.com/view/honors-project-qttriviagame "Project Site")
 
 ## Inspiration
 With COVID-19 and Social Justice at the forefront of news in the year of 2020 I wanted to share some facts about topics that lie in both subjects. Using a game modeled after Jeopardy I present several pieces of trivia for the users.
@@ -30,6 +31,10 @@ The app loads several trivia questions that hit broad range topics within the su
 ## Accomplishments
 * Finalized an app taking advantage of the robust features of QT Creator
 * Showcased multiple topics learned in the CSC 211H class as part of the project features
+
+## Demo - Youtube
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=kwIMQcCmfGQ" target="_blank"><img src="http://img.youtube.com/vi/kwIMQcCmfGQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## What I learned
 * How to build an app with QT
